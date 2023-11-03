@@ -1,0 +1,445 @@
+body {
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+    background-color:   #696969;
+}
+
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, label, strong {
+    line-height: 2;
+    font-size: 0.85em;
+    font-weight: 300;
+}
+strong{ font-size: 1.5em;
+    color:#8B008B;}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.flex1 {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.badge {
+    padding: 9px 20px;
+    color: #eee;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.75em;
+    margin-left: 30px;
+}
+
+.badge.new {
+    background-color: #FF205F;
+}
+
+.badge.strategy {
+    background-color: #4EAE60;
+}
+
+.badge.racing {
+    background-color: #694EAE;
+}
+
+.badge.rpg,
+.badge.adventure {
+    background-color: #8B008B;
+}
+
+.badge.tournaments {
+    background-color: #FB6E10;
+}
+
+.badge.premium-tournament {
+    background-color: #FFB320;
+    color: #252525;
+}
+
+.shade {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #FFB320;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #FFB320;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #FFB320;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #FFB320;
+}
+
+#login-register-button {
+    background-color: #FFB320;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 1em;
+    font-weight: 600;
+    text-align:center;
+}
+
+#hero-image {
+    background: url('https://i.ytimg.com/vi/mkIoj_BlWzE/maxresdefault.jpg') top center no-repeat;
+    height: 820px;
+}
+#tournament-image {
+    background: url('https://i.ytimg.com/vi/9X8frj19vss/maxresdefault.jpg') top center no-repeat;
+    height: 820px;
+}
+#registerpage-image{
+    background-color: #007BDC;
+
+}
+#loginpage-image{
+    background: url('https://i.ytimg.com/vi/9X8frj19vss/maxresdefault.jpg') top center no-repeat;
+    height: 700px;
+}
+#reg-image{
+    background: url('https://media-exp1.licdn.com/dms/image/C511BAQEGJPiKHbxtLw/company-background_10000/0/1557137917821?e=2159024400&v=beta&t=nUHpaENK7BNEu4cCx9LIIJ6P8k-jSutEN_7cX7nqVwI') top center no-repeat;
+    height: 910px;
+}
+#rankingfor{
+    background-color:#FF0000;
+    height: 820px;
+}
+#contact-image {
+    background: url('https://wallpapercave.com/wp/wp2661660.jpg') top center no-repeat;
+    height: 500px;
+}
+#link-image {
+    background: url('https://cdn1.dotesports.com/wp-content/uploads/2019/02/24144435/0_vbw4wQW_Xq2_3eOo.jpg') top center no-repeat;
+    height: 460px;
+}
+#reg-page-image{
+    background-image: url(bg.jpeg);
+}
+table{
+    font-family: Calibri; 
+    font-size: 11pt; 
+    font-style: normal;
+    font-weight: bold;
+    text-align: center; 
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    border-collapse: collapse; 
+    
+  }
+
+
+footer {
+    background-color: #252525;
+    padding: 25px 0 20px;
+}
+
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}
+
+
+
+ /* end 767px */
+
+
+main{
+    margin: 0;
+    padding: 0;
+    background: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.login-box select
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    background-color: purple;
+    font-size: 16px;
+}
+.login-box button [type="button"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.login-box button [type="button"]:hovers
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #8076a3;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+.container {
+  border-radius: 5px;
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  opacity: 0.8;
+  color: white;
+}
+.container input[type="text"], input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+textarea
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.container select
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+   
+    font-size: 16px;
+}
+#link-dota2{
+    margin-left: 100px;
+    background-color: black;
+    opacity: 0.8;
+    margin-right: 80px;
+
+}
+#link-image1 {
+    background: url('https://dmarket.com/blog/best-csgo-wallpapers/CS-GO-wallpaper-HD-art_hue3ed7aeab8fceb3ccf3a35de14fc82fb_1114369_1920x1080_resize_q75_lanczos.jpg') top center no-repeat;
+    height: 460px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#link-image2 {
+    background: url('https://i.gadgets360cdn.com/large/pubg_mobile_1575547086878.jpg') top center no-repeat;
+    height: 460px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#link-csgo{
+    margin-left: 20px;
+    background: black;
+    opacity: 0.8
+
+}
+#link-image3 {
+    background: url('https://i.ytimg.com/vi/tmWwGP5mROg/maxresdefault.jpg') top center no-repeat;
+    height: 460px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#link-image4 {
+    background: url('https://cdn.vox-cdn.com/thumbor/X2vXVuayGfTzt7Al_oG75mTdTZo=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19858273/LogoVersion_Beta_Key_Art_VALORANT.jpg') top center no-repeat;
+    height: 460px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#link-image5 {
+    background: url('https://pbs.twimg.com/media/Dy63s5uUwAE25PV.png') top center no-repeat;
+    height: 460px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.col-md-12{
+      color: blue;
+    height: 460px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
